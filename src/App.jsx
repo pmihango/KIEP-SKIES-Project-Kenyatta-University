@@ -3,6 +3,7 @@ import Navbar from './components/navbar/Navbar'
 import Hero from './components/hero/Hero'
 import Services from './components/Services/Services'
 import Title from './components/title/Title'
+import About from './components/about/About'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <div className="contaner">
           <Title subTitle='Our Services' title='What We Offer'/>
           <Services/>
+          <About/>
         </div>
       
     </div>
