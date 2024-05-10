@@ -23,5 +23,9 @@ a{
   padding-right: 10%;
 }
 .btn{
-  
+  background: #8abe53;
+  color: #000;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
 }
