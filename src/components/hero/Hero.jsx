@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className='hero container'>
         <div className="hero-text">
-            <h1>Next-Level User Experiences: Custom Frontend Development Solutions</h1>
+            <h1>Next-Level User Experiences: Custom Frontend Development Solutions.</h1>
                 <p>From responsive layouts to seamless navigation, Urex is dedicated 
                     to delivering frontend solutions that not only look exceptional 
                     but also drive results.</p>

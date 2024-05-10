@@ -16,7 +16,7 @@ const Navbar = () => {
             <li>Home</li>
             <li>Services</li>
             <li>About Us</li>
-            <li>Campus</li>
+            <li>Projects</li>
             <li>Testimonials</li>
             <li><button className='btn'>Contact Us</button></li>
         </ul>
