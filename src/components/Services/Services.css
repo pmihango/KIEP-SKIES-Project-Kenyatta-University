@@ -1,0 +1,18 @@
+.services{
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services img{
+    width: 400px;
+    height: 260px;
+    border-radius: 10px;
+    display: block;
+}
+
+.service{
+    flex-basis: 31%;
+}
