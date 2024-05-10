@@ -4,7 +4,7 @@ import logo from '../../assets/urex.png'
 
 const Navbar = () => {
   return (
-    <nav className='container'>
+    <nav className='container dark-nav' >
         <img src={logo} alt="" className='logo' />
         <ul>
             <li>Home</li>
