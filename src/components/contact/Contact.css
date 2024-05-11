@@ -22,10 +22,12 @@
 .contact-col img{
     width: 35px;
     margin-left: 10px;
+   
 }
 .contact-col p{
     max-width: 450px;
-    list-style: 0.3;
+    list-style: none;
+   
 }
 .contact-col ul li{
     display: flex;
@@ -37,5 +39,21 @@
 .contact-col ul li img{
     width: 25px;
     margin-right: 10px;
-    
+    height: 25px;    
+}
+.contact form input, .contact form textarea {
+    display: block;
+    width: 100%;
+    background:#ebecfe ;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+}
+
+.contact-col span{
+    display: block;
+    margin: 20px 0;
 }

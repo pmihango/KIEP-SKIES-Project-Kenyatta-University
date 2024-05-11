@@ -11,19 +11,21 @@ align-items: center;
 justify-content: left;
 }
 .hero-text{
-    text-align: center;
-    max-width: 800;
+    text-align: left;
+    max-width: 60%;
 }
 
 .hero-text h1{
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 600;
     color: #8abe53;
+    
 }
 
 .hero-text p{
-    max-width: 700px;
+    max-width: 60%;
     margin: 10px auto 20px;
     line-height: 1.4;
+    text-align: left;
 
 }
