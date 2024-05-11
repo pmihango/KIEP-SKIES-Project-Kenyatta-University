@@ -7,6 +7,7 @@ import About from './components/about/About'
 import Projects from './components/projects/Projects'
 import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Testimonials/>
           <Title subTitle='Contact Us' title='Get in Touch with Urex'/>
           <Contact/>
+          <Footer/>
         </div>
       
     </div>
