@@ -23,7 +23,6 @@ const App = () => {
           <Testimonials/>
           <Title subTitle='Contact Us' title='Get in Touch with Urex'/>
           <Contact/>
-
         </div>
       
     </div>
