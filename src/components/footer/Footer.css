@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #797979;
+    border-top: 1px solid #797979;
     padding: 10px 0;
 }
 
@@ -11,5 +11,18 @@
     display: inline-block;
     list-style: none;
     margin-left: 20px;
+}
 
+/*-------Media query to make the website responsive----*/
+@media (max-width: 600px){
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .footer ul li{
+        margin: 10px;
+    }
+    .footer ul{
+        margin-top: 10px;
+    }
 }

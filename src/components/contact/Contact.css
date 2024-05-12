@@ -57,3 +57,13 @@
     display: block;
     margin: 20px 0;
 }
+
+/*-------Media query to make the website responsive----*/
+@media (max-width: 800px){
+    .contact{
+        display: block;
+    }
+    .contact-col{
+        padding: 20px;
+    }
+}

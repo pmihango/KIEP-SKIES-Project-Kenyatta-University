@@ -48,3 +48,14 @@
     opacity: 1;
     padding-top: 0;
 }
+
+/*-------Media query to make the website responsive----*/
+@media (max-width: 650px){
+    .services{
+        flex-direction: column;
+    }
+    .service{
+        flex-basis: 100%;
+        margin: 20px;
+    }
+}
