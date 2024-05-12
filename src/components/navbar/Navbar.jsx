@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/urex.png'
+import menuicon from '../../assets/menu-icon.png'
 import { Link, ScrollLink } from 'react-scroll';
+
 
 const Navbar = () => {
    const [sticky, setSticky] = useState(false);
@@ -19,9 +21,9 @@ const Navbar = () => {
             <li> <Link to='about' smooth={true} offset={-150} duration={500}>About Us</Link></li>
             <li> <Link to='projects' smooth={true} offset={-260} duration={500}>Projects</Link></li>
             <li> <Link to='testimonials' smooth={true} offset={-260} duration={500}>Testimonials</Link></li>
-            <li> <Link to='contact' smooth={true} offset={-260} duration={500}>ContactUs</Link></li>
+            <li className='btn'><Link to='contact' smooth={true} offset={-260} duration={500}>ContactUs</Link></li>
         </ul>
-
+          <img src={menuicon} alt="" className='menu-icon' />
     </nav>
   )
 }

@@ -18,10 +18,10 @@ a{
   line-height: 1;
   cursor: pointer;
 }
-/* .container{
+.container{
   padding-left: 10%;
   padding-right: 10%;
-}  */
+} 
 
 .btn{
   background: #8abe53;
@@ -41,4 +41,15 @@ a{
 .btn img{
   width: 20px;
   margin-left: 10px;
+}
+
+/*-------Media query to make the website responsive----*/
+@media (max-width: 1200px){
+.container{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.btn{
+  padding: 14px 22px;
+}
 }
