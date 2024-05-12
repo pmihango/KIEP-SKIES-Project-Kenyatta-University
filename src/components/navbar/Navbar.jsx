@@ -15,11 +15,11 @@ const Navbar = () => {
         <img src={logo} alt="" className='logo' />
         <ul>
             <li> <Link to='hero' smooth={true} offset={0} duration={500}>Home</Link> </li>
-            <li> <Link to='services' smooth={true} offset={-100} duration={500}>Services</Link></li>
-            <li> <Link to='about' smooth={true} offset={0} duration={500}>About Us</Link></li>
-            <li> <Link to='projects' smooth={true} offset={-100} duration={500}>Projects</Link></li>
-            <li> <Link to='testimonials' smooth={true} offset={0} duration={500}>Testimonials</Link></li>
-            <li> <Link to='contact' smooth={true} offset={0} duration={500}>ContactUs</Link></li>
+            <li> <Link to='services' smooth={true} offset={-260} duration={500}>Services</Link></li>
+            <li> <Link to='about' smooth={true} offset={-150} duration={500}>About Us</Link></li>
+            <li> <Link to='projects' smooth={true} offset={-260} duration={500}>Projects</Link></li>
+            <li> <Link to='testimonials' smooth={true} offset={-260} duration={500}>Testimonials</Link></li>
+            <li> <Link to='contact' smooth={true} offset={-260} duration={500}>ContactUs</Link></li>
         </ul>
 
     </nav>
